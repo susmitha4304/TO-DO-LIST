@@ -1,0 +1,203 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f5f5f5;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:white;
+border-bottom:1px solid #ddd;
+}
+
+#darkBtn{
+padding:6px 12px;
+border:none;
+background:#333;
+color:white;
+cursor:pointer;
+}
+
+/* MAIN HORIZONTAL LAYOUT */
+
+.main-container{
+display:flex;
+gap:20px;
+padding:30px 40px;
+}
+
+/* Reset */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* Body */
+
+body{
+background:#f4f4f4;
+color:#333;
+line-height:1.6;
+}
+
+
+/* Header */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+border-bottom:1px solid #ddd;
+}
+
+header h1{
+font-size:24px;
+}
+
+#darkBtn{
+padding:6px 12px;
+background:#333;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+
+/* Sections */
+
+section{
+max-width:900px;
+margin:40px auto;
+padding:30px;
+background:white;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+
+/* Welcome */
+
+.welcome p{
+margin-top:10px;
+color:#555;
+}
+
+
+/* Todo */
+
+.todo h2{
+margin-bottom:15px;
+}
+
+.input-area{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.input-area input{
+flex:1;
+padding:10px;
+border:1px solid #ccc;
+}
+
+button{
+padding:10px 15px;
+border:none;
+background:#4CAF50;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#45a049;
+}
+
+#taskList{
+list-style:none;
+}
+
+#taskList li{
+padding:10px;
+border-bottom:1px solid #eee;
+display:flex;
+justify-content:space-between;
+cursor:pointer;
+}
+
+#taskList li.completed{
+text-decoration:line-through;
+color:#777;
+}
+
+.delete{
+background:red;
+color:white;
+border:none;
+padding:4px 8px;
+cursor:pointer;
+}
+
+
+/* Contact */
+
+.contact input,
+.contact textarea{
+width:100%;
+padding:10px;
+margin-bottom:12px;
+border:1px solid #ccc;
+}
+
+.contact textarea{
+height:100px;
+}
+
+#error{
+font-size:14px;
+margin-top:5px;
+}
+
+
+/* Footer */
+
+footer{
+text-align:center;
+padding:20px;
+background:white;
+border-top:1px solid #ddd;
+margin-top:30px;
+}
+
+
+/* Dark Mode */
+
+.dark{
+background:#1e1e1e;
+color:white;
+}
+
+.dark section,
+.dark header,
+.dark footer{
+background:#2c2c2c;
+color:white;
+border-color:#444;
+}

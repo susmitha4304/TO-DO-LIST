@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Productivity Dashboard</title>
+
+<link rel="stylesheet" href="style2.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Productivity Dashboard</h1>
+
+<button id="darkBtn">Dark Mode</button>
+
+</header>
+
+
+<!-- Welcome Section -->
+
+<section class="welcome">
+
+<h2>Welcome</h2>
+
+<p>
+This simple productivity dashboard helps you manage tasks
+and contact us easily. Built using HTML, CSS and JavaScript.
+</p>
+
+</section>
+
+
+<!-- Todo Section -->
+
+<section class="todo">
+
+<h2>To Do List</h2>
+
+<div class="input-area">
+
+<input type="text" id="taskInput" placeholder="Enter new task">
+
+<button onclick="addTask()">Add Task</button>
+
+</div>
+
+<ul id="taskList"></ul>
+
+</section>
+
+
+<!-- Contact Section -->
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<form id="contactForm">
+
+<input type="text" id="name" placeholder="Your Name">
+
+<input type="email" id="email" placeholder="Your Email">
+
+<textarea id="message" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+<p id="error"></p>
+
+</form>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Productivity Dashboard</p>
+
+</footer>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
